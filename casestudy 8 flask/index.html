@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IRIS SPECIES</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/background2.jfif">
+    <div class="input form">
+    <form action="{{url_for('predict')}}"method='post'id='input head'>
+        <h1 id="heading">IRIS SPECIES PREDICTION FORM</h1>
+        <h3 id="input">Enter species parameters</h3>
+        <label for="sw">Enter Sepal Width</label><br>
+        <input type="text" id="sw" name="sw"><br>
+        <label for="sl">Enter Sepal Length</label><br>
+        <input type="text" id="sl" name="sl"><br>
+        <label for="pw">Enter Petal Width</label><br>
+        <input type="text" id="pw" name="pw"><br>
+        <label for="pl">Enter Petal Length</label><br>
+        <input type="text" id="pl" name="pl"><br><br>
+        <button id='submit' type="submit">Submit</button>
+        <button id='Reset' type='Reset'>Reset</button>
+      </form>
+</div>  
+</body>
+</html>

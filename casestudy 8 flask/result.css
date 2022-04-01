@@ -1,0 +1,11 @@
+
+body{
+    background-image:url("/static/images/background2.jfif");
+  }
+.result{
+    font-size: 16;
+    color: white;
+    text-align: absolute;
+    font-family: impact;
+    margin-top: 17%;
+}
